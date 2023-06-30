@@ -17,11 +17,16 @@
     flex-direction: row;
     gap:32px;
 }
+.left-links {
+    margin-left: 70px;
+}
 
 .right-links {
+    margin-right: 80px;
     display: flex;
     align-items: center;
     font-size: 24px;
+
 }
 
 /* remove underline and bullet point */
@@ -35,6 +40,9 @@ ul{
 }
 
 /* Hero Section */
+.info-con{
+    width: 600px;
+}
 .hero-section{
     display: flex;
     justify-content: space-between;
@@ -43,8 +51,7 @@ ul{
     background-color: #1f2937;
 }
 .headline{
-    margin: 0;
-    padding-left: 80px;
+    margin-left: 150px;
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
@@ -56,13 +63,26 @@ ul{
 .text-con {
     color: #F9FAF8;
     font-size: 18px;
-    padding-left: 80px;
+    margin-left: 150px;
 }
 #btnSignUp {
-    margin-left: 80px;
+    border-style: solid;
+    border-color: green;
+    margin-left: 150px;
     margin-top: 20px;
     width: 150px;
     height: 35px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     background-color: #3882F6;
+}
+/* image container */
+.image-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    background-color: lightgray;
+}
+.image-con {
+    margin-right: 150px;
 }
