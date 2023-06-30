@@ -48,6 +48,7 @@ ul{
     justify-content: space-between;
 }
 .hero-section {
+    padding-bottom: 30px;
     background-color: #1f2937;
 }
 .headline{
