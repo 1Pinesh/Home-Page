@@ -33,3 +33,15 @@ a {
 ul{
     list-style: none;
 }
+
+/* Hero Section */
+
+.hero-section {
+    background-color: #1f2937;
+}
+.headline{
+    margin: 0;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
