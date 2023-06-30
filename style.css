@@ -35,13 +35,34 @@ ul{
 }
 
 /* Hero Section */
-
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+}
 .hero-section {
     background-color: #1f2937;
 }
 .headline{
     margin: 0;
+    padding-left: 80px;
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
+}
+.text-con{
+    display: flex;
+    flex-direction: column;
+}
+.text-con {
+    color: #F9FAF8;
+    font-size: 18px;
+    padding-left: 80px;
+}
+#btnSignUp {
+    margin-left: 80px;
+    margin-top: 20px;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #3882F6;
 }
