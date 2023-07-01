@@ -107,11 +107,17 @@ ul{
 }
 #boxes{
     border-style: solid;
-    border-color: green;
+    border-color: #3882F6;
+    border-radius: 15px;
     width: 150px;
     height: 150px;
 }
 #boxes{
-    display: flex;
     margin-top: 30px;
 }
+.box-con{
+    width: 160px;
+}
+ .box-con p {
+   padding-left: 13px;
+ }
