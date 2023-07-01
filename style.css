@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
 /* Header Settings */
 .header {
    display: flex;
@@ -120,4 +121,33 @@ ul{
 }
  .box-con p {
    padding-left: 13px;
+   margin-bottom: 40px;
  }
+/* Quote Section */
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+.quote-con{
+    width: 700px;
+    font-size: 36px;
+}
+.quote-con p{
+   margin-top:50px;
+   margin-bottom: 0;
+   font-family: 'Love Light', cursive;
+}
+.quote-by p{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    font-family: 'Love Light',cursive;
+    font-size: 30px;
+    margin: 1px;
+}
+.quote-by {
+width: 700px;
+}
