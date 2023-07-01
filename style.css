@@ -167,7 +167,26 @@ width: 700px;
     border: solid 1px green;
     background-color: #3882F6;
     width: 700px;
+    height: 150px;
+    border-radius: 15px;
+}
+.ad-con {
+    margin-top:50px;
+    margin-bottom: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    color: white;
+}
+.ad-text{
+    margin-left: 100px;
+}
+.SignUpBtn {
+    margin-right: 100px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+.SignUpBtn :hover {
+    box-shadow: 0 5px 0 5px black;
 }
