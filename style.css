@@ -67,13 +67,11 @@ ul{
     margin-left: 150px;
 }
 #btnSignUp {
-    border-style: solid;
-    border-color: green;
     margin-left: 150px;
     margin-top: 20px;
     width: 150px;
     height: 35px;
-    /* border-radius: 10px; */
+    border-radius: 10px;
     background-color: #3882F6;
 }
 /* image container */
@@ -86,4 +84,34 @@ ul{
 }
 .image-con {
     margin-right: 150px;
+}
+/*random stuff section*/
+.title{
+    font-size: 36px;
+    font-weight: 800px;
+}
+.title h2 {
+    margin: 0;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+#boxes{
+    border-style: solid;
+    border-color: green;
+    width: 150px;
+    height: 150px;
+}
+#boxes{
+    display: flex;
+    margin-top: 30px;
 }
