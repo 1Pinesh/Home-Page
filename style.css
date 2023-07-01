@@ -1,4 +1,8 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+body {
+    margin: 0;
+}
 /* Header Settings */
 .header {
    display: flex;
@@ -150,4 +154,20 @@ ul{
 }
 .quote-by {
 width: 700px;
+}
+
+/* Ad Section */
+.ad-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.ad-con {
+    border: solid 1px green;
+    background-color: #3882F6;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
