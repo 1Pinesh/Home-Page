@@ -142,9 +142,6 @@ ul{
     gap:30px;
 }
 #boxes{
-    border-style: solid;
-    border-color: #3882F6;
-    border-radius: 15px;
     width: 150px;
     height: 150px;
 }
@@ -157,6 +154,15 @@ ul{
  .box-con p {
    padding-left: 13px;
    margin-bottom: 40px;
+ }
+
+ /* image inside boxes */
+ .img1 {
+    width:150px;
+    height:150px;
+    border: solid 2px #3882F6;
+    border-radius: 15px;
+
  }
 /* Quote Section */
 .quote-section {
