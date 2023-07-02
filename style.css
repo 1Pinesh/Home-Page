@@ -1,4 +1,6 @@
-
+/* Font For Heading  */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+/* Font for Quote */
 @import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
 body {
     margin: 0;
@@ -11,9 +13,13 @@ body {
    padding-left: 80px;
    padding-right: 70px;
 }
+.header h2 {
+    font-family: 'Archivo Black', sans-serif;
+    color: #00b4d8;
+    
+}
 .header {
     background-color: #1f2937;
-    color: white;
 }
 
 /* Header right link setting */
@@ -31,7 +37,10 @@ body {
     display: flex;
     align-items: center;
     font-size: 24px;
-
+}
+.right-links a {
+    color: #00b4d8;
+    font-family: 'Archivo Black', sans-serif;
 }
 
 /* remove underline and bullet point */
@@ -89,6 +98,10 @@ ul{
 }
 .image-con {
     margin-right: 150px;
+}
+.image-con img {
+    width: 600px;
+    
 }
 /*random stuff section*/
 .title{
