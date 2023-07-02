@@ -16,8 +16,26 @@ body {
 .header h2 {
     font-family: 'Archivo Black', sans-serif;
     color: #00b4d8;
+    animation: color 12s ease-in-out infinite;
+}
+
+/* Make logo change colour */
+@keyframes color {
+    0%{
+        color: #3882F6;
+    }
+    25% {
+        color: aquamarine;
+    }
+    50% {
+        color: lightblue;
+    }
+    100% {
+        color:  #00b4d8;
+    }
     
 }
+
 .header {
     background-color: #1f2937;
 }
@@ -94,14 +112,14 @@ ul{
     justify-content: center;
     align-items: center;
     width: 600px;
-    background-color: lightgray;
 }
 .image-con {
     margin-right: 150px;
 }
 .image-con img {
+    border: solid 2px lightseagreen;
+    border-radius: 10px;
     width: 600px;
-    
 }
 /*random stuff section*/
 .title{
