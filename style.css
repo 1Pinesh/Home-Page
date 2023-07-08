@@ -236,3 +236,11 @@ width: 700px;
     font-weight: 800;
     color: white;
 }
+.box-con img:hover {
+    box-shadow: 10px 6px 6px 6px;
+}
+
+#btnSignUp:hover, .SignUpBtn:hover {
+    background-color: cornflowerblue;
+    box-shadow: 0 5px 0 0;
+}
