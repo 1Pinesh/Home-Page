@@ -30,8 +30,11 @@ body {
     50% {
         color: lightblue;
     }
+    75% {
+        color:  yellow;
+    }
     100% {
-        color:  #00b4d8;
+        color:#3882F6;
     }
     
 }
@@ -240,7 +243,7 @@ width: 700px;
     box-shadow: 10px 6px 6px 6px;
 }
 
-#btnSignUp:hover, .SignUpBtn:hover {
+#btnSignUp:hover    , .SignUpBtn:hover {
     background-color: cornflowerblue;
     box-shadow: 0 5px 0 0;
 }
